@@ -1,0 +1,126 @@
+
+
+body {
+  background-image:url("https://reverent-bose-df2ec0.netlify.app/lloyd-dirks-4SLz_RCk6kQ-unsplash.jpg");
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.nav {
+margin-top: 20px;
+}
+
+ select {
+  background-color:white;
+ 
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.seat {
+  background-color: gray;
+  height: 26px;
+  width: 32px;
+  margin: 3px;
+  font-size: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.seat.selected {
+  background-color: green;
+}
+
+.seat.sold {
+  background-color: #fff;
+}
+
+.seat:not(.sold):hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.showcase .seat:not(.sold):hover {
+  cursor: default;
+ 
+}
+
+.showcase {
+  background: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color:gray;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+
+.row {
+  display: flex;
+  padding: 10px;
+  
+}
+
+
+
+p.text{
+    margin: 5px 0;
+}
+
+p.text span{
+    color: yellowgreen;
+}
+.moving{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+  text-align: center;
+  
+  color: yellowgreen;
+ 
+}
+
+
+
+.bottom{
+  border: 1px solid yellowgreen;
+  margin-left: 30%;
+  margin-right:30% ;
+
+  width: 100%;
+
+}
+.top{
+  margin-top: 20px;
+  border: 1px solid yellowgreen;
+  margin-left: 30%;
+  margin-right:30% ;
+
+  width:80%;
+
+}
+.p{
+  margin-top: 10px;
+}
